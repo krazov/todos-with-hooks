@@ -1,4 +1,4 @@
-// based on the final solution from here:
+// source:
 // https://medium.com/javascript-in-plain-english/state-management-with-react-hooks-no-redux-or-context-api-8b3035ceecf8
 
 function setState(newState) {

@@ -10,13 +10,7 @@ export const removeTodoAction = (id) => ({
     payload: id,
 });
 
-export const createRemoveTodo = (setState) => (id) =>
-    setState({
-        type: REMOVE_TODO,
-        payload: id,
-    });
-
-export const createUpdateTodo = (setState) => (todo) =>
+export const updateTodoAction = (todo) =>
     setState({
         type: UPDATE_TODO,
         payload: todo
